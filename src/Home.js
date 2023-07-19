@@ -11,7 +11,7 @@ const Home = ({ navigation }) => {
 
       // domainUriPrefix: 'https://demodeeplinking123.page.link',
       //domainUriPrefix: 'https://demodeeplinking123.page.link/6RQi',
-      domainUriPrefix: 'https://demodeeplinking123.page.link/pay',
+      domainUriPrefix: 'https://demodeeplinking123.page.link/iho8',
       // optional setup which updates Firebase analytics campaign
       // "banner". This also needs setting up before hand
       analytics: {
@@ -24,7 +24,7 @@ const Home = ({ navigation }) => {
 
   const handleDynamicLink = link => {
     // Handle dynamic link inside your own application
-    if (link.url === 'https://invertase.io/offer') {
+    if (link.url === 'https://com.deeplinkdemo') {
       // ...navigate to your offers screen
       navigation.navigate('Offer');
     } else {
